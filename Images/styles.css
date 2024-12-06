@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-left: 10%;
+    padding-right: 10%;
+    background-image: url("./Images/Mac_with_sauce.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: center; */
+}
+
+img[src="./Images/Asset 16@4x.png"] {
+    width: 60rem;
+    height: auto;
+}
+
+nav {
+    display: flex;
+    justify-content: center; /* Center the ul horizontally */
+    padding: 0.6rem;
+    color: white;
+    border: 1rem;
+    border-radius: 5rem;
+    background-color: rgb(57, 56, 56);
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    margin: 0.6rem;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    list-style-type: none;
+
+}
+
+li {
+    margin: 0.8rem;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem ;
+    padding-right: 0.8rem;
+}
+
+li:hover {
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 1.3rem;
+}
+
+
+h1 {
+    font-size: 3rem;
+    text-align: center;
+}
+p {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    margin: 1rem;
+    border: 1rem;
+    background-color: white;
+    color: black;
+}
+
+.cuisines {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    margin: 1rem;
+    border: 1rem;
+    background-color: white;
+    color: black;
+}
